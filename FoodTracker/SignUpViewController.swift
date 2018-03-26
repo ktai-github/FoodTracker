@@ -104,9 +104,34 @@ class SignUpViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
 
       }
+//      print("response = \(String(describing: response))")
       let responseString = String(data: data, encoding: .utf8)
       print("responseString = \(String(describing: responseString))")
       
+      do {
+        
+        let json = try JSONSerialization.jsonObject(with: data, options: [])
+        if let object = json as? [String: Any] {
+          
+          // json is a dictionary
+          print(object)
+          guard let token = object["token"] else {
+            print("invalid token")
+            return
+          }
+          UserDefaults.standard.set(token, forKey: "token")
+          
+        } else if let object = json as? [Any] {
+          // json is an array
+          print(object)
+        } else {
+          print("JSON is invalid")
+        }
+      }
+      catch {
+        
+      }
+
           }
     task.resume()
     
