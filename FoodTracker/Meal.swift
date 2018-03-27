@@ -17,6 +17,10 @@ class Meal: NSObject, NSCoding {
   var name: String
   var photo: UIImage?
   var rating: Int
+  var calories: Int
+  var mealDescription: String
+  var userId: String
+  var id: Int
   
   //MARK: Archiving Paths
   
@@ -50,6 +54,10 @@ class Meal: NSObject, NSCoding {
     self.name = name
     self.photo = photo
     self.rating = rating
+    self.calories = 0
+    self.mealDescription = ""
+    self.userId = ""
+    self.id = 246
   }
   
   //MARK: NSCoding

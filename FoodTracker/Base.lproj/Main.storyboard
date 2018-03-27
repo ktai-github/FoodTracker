@@ -154,7 +154,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="ple-rn-Lzc">
             <objects>
-                <viewController id="L8p-hN-Gpt" customClass="SignUpViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="L8p-hN-Gpt" customClass="SignUpViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="heH-bF-rwO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

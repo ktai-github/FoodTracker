@@ -18,6 +18,7 @@
 		2CD1320B2068BD6B00065A41 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1320A2068BD6B00065A41 /* MealTableViewCell.swift */; };
 		2CD1320D2068C2C000065A41 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1320C2068C2C000065A41 /* MealTableViewController.swift */; };
 		2CD1320F2069960100065A41 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1320E2069960100065A41 /* SignUpViewController.swift */; };
+		2CD132112069C3AF00065A41 /* CloudTrackerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD132102069C3AF00065A41 /* CloudTrackerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2CD1320A2068BD6B00065A41 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		2CD1320C2068C2C000065A41 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		2CD1320E2069960100065A41 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2CD132102069C3AF00065A41 /* CloudTrackerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTrackerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				2CD131E820680D1000065A41 /* MealViewController.swift */,
 				2CD131EA20680D1000065A41 /* Main.storyboard */,
 				2CD1320E2069960100065A41 /* SignUpViewController.swift */,
+				2CD132102069C3AF00065A41 /* CloudTrackerManager.swift */,
 				2CD1320C2068C2C000065A41 /* MealTableViewController.swift */,
 				2CD1320A2068BD6B00065A41 /* MealTableViewCell.swift */,
 				2CD132082068B91700065A41 /* Meal.swift */,
@@ -216,6 +219,7 @@
 			files = (
 				2CD132092068B91700065A41 /* Meal.swift in Sources */,
 				2CD1320F2069960100065A41 /* SignUpViewController.swift in Sources */,
+				2CD132112069C3AF00065A41 /* CloudTrackerManager.swift in Sources */,
 				2CD131E920680D1000065A41 /* MealViewController.swift in Sources */,
 				2CD1320720687CD200065A41 /* RatingControl.swift in Sources */,
 				2CD131E720680D1000065A41 /* AppDelegate.swift in Sources */,
