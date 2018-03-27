@@ -118,8 +118,22 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     let photo = photoImageView.image
     let rating = ratingControl.rating
     
+
+    
     // Set the meal to be passed to MealTableViewController after the unwind segue.
     meal = Meal(name: name, photo: photo, rating: rating)
+    
+    let myGroup = DispatchGroup()
+    myGroup.enter()
+    
+    let cloudTrackerManager = CloudTrackerManager()
+    cloudTrackerManager.saveMeal(meal: meal!, completion: nil)
+    
+    myGroup.leave()
+//    myGroup.notify()
+    
+
+    
   }
   
   //MARK: Actions

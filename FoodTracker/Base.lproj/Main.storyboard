@@ -14,7 +14,7 @@
         <!--New Meal-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="New Meal" id="BYZ-38-t0r" customClass="MealViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MealViewController" title="New Meal" id="BYZ-38-t0r" customClass="MealViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +187,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="login:" destination="L8p-hN-Gpt" eventType="touchUpInside" id="Q9g-Na-liY"/>
+                                    <segue destination="d9l-oh-svJ" kind="show" id="ulw-RL-i4r"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -201,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QB4-Ft-6Kp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1322.4000000000001" y="-582.45877061469275"/>
+            <point key="canvasLocation" x="-1322" y="-650"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3hs-uh-A5d">
